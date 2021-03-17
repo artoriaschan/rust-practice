@@ -1,0 +1,13 @@
+ignore = []
+
+binop_separator = "Back"
+blank_lines_lower_bound = 1
+brace_style = "PreferSameLine"
+format_strings = true
+use_field_init_shorthand = true
+
+wrap_comments = true
+format_code_in_doc_comments = true
+
+imports_layout = "HorizontalVertical"
+group_imports = "StdExternalCrate"
