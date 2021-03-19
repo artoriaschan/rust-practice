@@ -24,14 +24,17 @@ pub fn demo_1() {
   );
 }
 pub fn demo_2() {
-  // 元组
   let tup: (i32, f64, u8) = (500, 6.4, 1);
   let (x, y, z) = tup;
   println!("the value of y is: {}", y);
   println!("the value of x is equal tup.0: {}", x == tup.0);
+}
 
+pub fn demo_3() {
   let array_1 = [1, 2, 3, 4, 5];
   let array_2: [i32; 5] = [1, 2, 3, 4, 5];
   let array_3 = [3; 5];
+  println!("the value of array_1 is {:?}", array_1);
+  println!("the value of array_2 is {:?}", array_2);
   println!("the value of array_3 is {:?}", array_3);
 }
