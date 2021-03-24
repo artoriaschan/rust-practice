@@ -8,3 +8,13 @@ pub fn demo_1() {
 
   println!("{}'s length is {}", s1, len);
 }
+
+fn change(some_string: &mut String) {
+  some_string.push_str(", world!")
+}
+
+pub fn demo_2() {
+  let mut s = String::from("hello");
+
+  change(&mut s);
+}
