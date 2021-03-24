@@ -1,6 +1,9 @@
+#![allow(dead_code)]
+#![allow(unused_parens)]
+#![allow(unused_variables)]
+
 mod practice;
 
 fn main() {
-    // practice::general_concept::run();
-    practice::ownership::run();
+    practice::go();
 }
