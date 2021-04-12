@@ -2,7 +2,7 @@ mod enume;
 mod option;
 
 pub fn run() {
-  println!("=============run demos of struct=============");
+  println!("=============run demos of enumerate=============");
   enume::demo_1();
   enume::demo_2();
   enume::demo_3();
