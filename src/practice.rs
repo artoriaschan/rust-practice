@@ -1,6 +1,7 @@
 mod _struct;
 mod collections;
 mod enumerate;
+mod error_handling;
 mod general_concept;
 mod ownership;
 
@@ -9,5 +10,6 @@ pub fn go() {
   // ownership::run();
   // _struct::run();
   // enumerate::run();
-  collections::run();
+  // collections::run();
+  error_handling::run();
 }

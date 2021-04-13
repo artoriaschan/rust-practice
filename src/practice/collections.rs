@@ -13,4 +13,6 @@ pub fn run() {
   string::demo_3();
 
   map::demo_1();
+  map::demo_2();
+  map::demo_3();
 }
