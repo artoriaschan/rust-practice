@@ -2,7 +2,9 @@
 #![allow(unused_parens)]
 #![allow(unused_variables)]
 
+mod _crate;
 mod _struct;
+mod closure;
 mod collections;
 mod enumerate;
 mod error_handling;
@@ -10,5 +12,6 @@ mod general_concept;
 mod ownership;
 
 fn main() {
-    error_handling::run();
+    // closure::run();
+    _crate::run();
 }

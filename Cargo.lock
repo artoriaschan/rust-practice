@@ -3,9 +3,16 @@
 version = 3
 
 [[package]]
+name = "art"
+version = "0.1.0"
+
+[[package]]
 name = "minigrep"
 version = "0.1.0"
 
 [[package]]
 name = "practice"
 version = "0.1.0"
+dependencies = [
+ "art",
+]
