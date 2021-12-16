@@ -10,8 +10,10 @@ mod enumerate;
 mod error_handling;
 mod general_concept;
 mod ownership;
+mod smart_pointer;
 
 fn main() {
     // closure::run();
-    _crate::run();
+    // _crate::run();
+    smart_pointer::run();
 }
