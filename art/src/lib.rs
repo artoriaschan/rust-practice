@@ -40,6 +40,8 @@ pub mod utils {
   /// ```
   pub fn mix(c1: PrimaryColor, c2: PrimaryColor) -> SecondaryColor {
     // ...
+    println!("{:?}", c1);
+    println!("{:?}", c2);
     SecondaryColor::Green
   }
 }

@@ -8,6 +8,7 @@ mod closure;
 mod collections;
 mod enumerate;
 mod error_handling;
+mod fearless_concurrency;
 mod general_concept;
 mod ownership;
 mod smart_pointer;
@@ -15,5 +16,6 @@ mod smart_pointer;
 fn main() {
     // closure::run();
     // _crate::run();
-    smart_pointer::run();
+    // smart_pointer::run();
+    fearless_concurrency::run();
 }
