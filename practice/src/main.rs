@@ -4,6 +4,7 @@
 
 mod _crate;
 mod _struct;
+mod advanced_features;
 mod closure;
 mod collections;
 mod enumerate;
@@ -21,5 +22,6 @@ fn main() {
     // smart_pointer::run();
     // fearless_concurrency::run();
     // oop::run();
-    matches::run();
+    // matches::run();
+    advanced_features::run();
 }
