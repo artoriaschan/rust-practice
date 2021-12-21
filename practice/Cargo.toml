@@ -7,6 +7,8 @@ license = "MIT"
 
 [dependencies]
 art = { path = "../art" }
+hello_macro = { path = "./hello_macro" }
+hello_macro_derive = { path = "./hello_macro/hello_macro_derive" }
 
 [profile.dev]
 opt-level = 0

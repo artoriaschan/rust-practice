@@ -3,6 +3,7 @@
 #![allow(unused_variables)]
 
 mod _crate;
+mod _macro;
 mod _struct;
 mod advanced_features;
 mod closure;
@@ -23,5 +24,6 @@ fn main() {
     // fearless_concurrency::run();
     // oop::run();
     // matches::run();
-    advanced_features::run();
+    // advanced_features::run();
+    _macro::run();
 }

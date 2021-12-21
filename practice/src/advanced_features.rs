@@ -1,3 +1,4 @@
+mod advanced_function;
 mod advanced_trait;
 mod unsafe_rust;
 
@@ -12,4 +13,6 @@ pub fn run() {
   advanced_trait::demo_2::main();
   advanced_trait::demo_3::main();
   advanced_trait::demo_4::main();
+
+  advanced_function::demo_1::main();
 }
