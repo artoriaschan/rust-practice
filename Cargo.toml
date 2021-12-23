@@ -3,5 +3,6 @@
 members = [
     "art",
     "practice",
-    "minigrep"
+    "minigrep",
+    "web-server"
 ]
