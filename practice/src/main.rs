@@ -15,15 +15,20 @@ mod general_concept;
 mod matches;
 mod oop;
 mod ownership;
+mod self_ref;
 mod smart_pointer;
 
 fn main() {
+    println!("");
+    println!("=============practice=============");
+    println!("");
     // closure::run();
     // _crate::run();
     // smart_pointer::run();
-    // fearless_concurrency::run();
+    fearless_concurrency::run();
     // oop::run();
     // matches::run();
     // advanced_features::run();
-    _macro::run();
+    // _macro::run();
+    // self_ref::run();
 }
